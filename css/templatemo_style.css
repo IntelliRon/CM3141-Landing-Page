@@ -122,7 +122,7 @@ header.template_header h1 span {
 }
 /***** Home *****/
 #templatemo_home {
-    background: #154558 url(../images/jumbo_background.jpg) fixed;
+    background: #154558 url(../images/Group_1_34.png) fixed;
     /*background:  url(../images/.jpg) fixed;*/
     background-size: cover;
     min-height: 100vh;
@@ -132,7 +132,6 @@ header.template_header h1 span {
 #templatemo_home .templatemo_home_inner_wapper {
     width: 100%;
     max-width: 500px;
-    margin: 0 auto;
 }
 #templatemo_home h1 {
     margin-top: 20vh;
@@ -247,9 +246,22 @@ header.template_header h1 span {
 #templatemo_element #element-icon-wapper a { color: #000;}
 #templatemo_element #img-grid-wapper > div { padding: 5px;}
 /***** Contact *****/
+header.template_contact_header h1 {
+    text-align: center;
+}
 #templatemo_contact {
-    background: #455a64 url(../images/pattern_bg.png) fixed;
+    background-color: #485E92;
     color: #fff;
+}
+#contact_form_img {
+    height: 100%;
+    width: 100%;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+#templatemo_contact .container {
+    width: 100vw;
 }
 #templatemo_contact header h1 { color: #fff;}
 #templatemo_contact p, #templatemo_contact a  {
@@ -261,6 +273,9 @@ header.template_header h1 span {
 #templatemo_contact form button.form-control,
 #templatemo_contact form textarea.form-control ,
 #templatemo_contact form select.form-control { border-bottom: 3px solid #fff;color: #fff;}
+#templatemo_contact form textarea {
+    resize: vertical;
+}
 #templatemo_contact form input.form-control:focus,
 #templatemo_contact form button.form-control:focus,
 #templatemo_contact form textarea.form-control:focus { border-bottom-color: #275267;}
