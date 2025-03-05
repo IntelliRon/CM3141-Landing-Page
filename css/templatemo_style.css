@@ -269,9 +269,6 @@ header.template_contact_header h1 {
     margin: 0;
 }
 @media (max-width: 768px) {
-    #contact_form_img, #contact_form_img_col {
-        display: none;
-    }
     #templatemo_contact .container {
         display: flex;
         align-items: center;
