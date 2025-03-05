@@ -267,7 +267,6 @@ header.template_contact_header h1 {
     width: 100%;
     padding: 0;
     margin: 0;
-    max-height: 480px;
 }
 @media (max-width: 768px) {
     #contact_form_img, #contact_form_img_col {
