@@ -123,11 +123,20 @@ header.template_header h1 span {
 /***** Home *****/
 #templatemo_home {
     background: #154558 url(../images/Group_1_34.png) fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
     /*background:  url(../images/.jpg) fixed;*/
     background-size: cover;
     min-height: 100vh;
     padding-bottom: 130px;
     color: #fff;
+}
+@media (max-width: 768px) {
+    #templatemo_home {
+        background: none;
+        background-color: #485E92;
+    }
+    
 }
 #templatemo_home .templatemo_home_inner_wapper {
     width: 100%;
@@ -256,9 +265,18 @@ header.template_contact_header h1 {
 #contact_form_img {
     height: 100%;
     width: 100%;
-    float: right;
     padding: 0;
     margin: 0;
+}
+@media (max-width: 768px) {
+    #contact_form_img, #contact_form_img_col {
+        display: none;
+    }
+    #templatemo_contact .container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 }
 #templatemo_contact .container {
     width: 100vw;
