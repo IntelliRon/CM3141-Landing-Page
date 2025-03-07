@@ -130,7 +130,7 @@ header.template_header h1 span {
     background-size: cover;
     min-height: 100vh;
     padding-bottom: 130px;
-    color: #000;
+    color: #fff;
 }
 @media (max-width: 768px) {
     #templatemo_home {
