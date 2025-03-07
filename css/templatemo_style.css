@@ -299,13 +299,15 @@ header.template_contact_header h1 {
 #templatemo_contact form input.form-control:focus,
 #templatemo_contact form button.form-control:focus,
 #templatemo_contact form textarea.form-control:focus ,
-#templatemo_contact form select.form-control:focus {color: black;}
+#templatemo_contact form select.form-control:focus {background: transparent;}
+#templatemo_contact form input.form-control::placeholder,
+#templatemo_contact form button.form-control::placeholder,
+#templatemo_contact form textarea.form-control::placeholder,
+#templatemo_contact form select.form-control::placeholder {color: #D8D8D8}
 #templatemo_contact form textarea {
     resize: vertical;
 }
-#templatemo_contact form input.form-control:focus,
-#templatemo_contact form button.form-control:focus,
-#templatemo_contact form textarea.form-control:focus { border-bottom-color: #275267;}
+
 #templatemo_contact form textarea.form-control { min-height: 120px;}
 #templatemo_contact form .input-group-addon { border-bottom: 3px solid #fff;}
 #templatemo_contact form .input-group-addon i { color: #fff;}
