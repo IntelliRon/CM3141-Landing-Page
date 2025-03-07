@@ -218,7 +218,7 @@ header.template_header h1 span {
 }
 #templatemo_features .feature-box p {
     max-width: 250px;
-    min-height: 260px;
+    min-height: 380px;
     line-height: 32px;
     padding-top: 30px;
     font-size: 18px;
