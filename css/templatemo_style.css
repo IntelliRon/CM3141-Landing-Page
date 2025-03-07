@@ -144,7 +144,7 @@ header.template_header h1 span {
     max-width: 500px;
 }
 #templatemo_home h1 {
-    margin-top: 20vh;
+    margin-top: 10vh;
     font: normal normal 400 70px/80px 'Fira Sans', sans-serif;
 }
 #templatemo_home h2 {
@@ -181,6 +181,9 @@ header.template_header h1 span {
 #templatemo_features {
     background: #455a64 url(../images/pattern_bg.png) fixed;
     padding-bottom: 130px;
+}
+#templatemo_features h1 {
+    margin-top: 0;
 }
 #templatemo_features p {
     padding-bottom: 30px;
@@ -269,6 +272,9 @@ header.template_contact_header h1 {
     padding: 0;
     margin: 0;
 }
+#contact_content_box {
+    padding-bottom: 10px;
+}
 @media (max-width: 768px) {
     #templatemo_contact .container {
         display: flex;
@@ -289,6 +295,11 @@ header.template_contact_header h1 {
 #templatemo_contact form button.form-control,
 #templatemo_contact form textarea.form-control ,
 #templatemo_contact form select.form-control { border-bottom: 3px solid #fff;color: #fff;}
+#templatemo_contact form .form-group { margin-top: 30px;}
+#templatemo_contact form input.form-control:focus,
+#templatemo_contact form button.form-control:focus,
+#templatemo_contact form textarea.form-control:focus ,
+#templatemo_contact form select.form-control:focus {color: black;}
 #templatemo_contact form textarea {
     resize: vertical;
 }
