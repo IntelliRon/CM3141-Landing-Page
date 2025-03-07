@@ -218,7 +218,7 @@ header.template_header h1 span {
 }
 #templatemo_features .feature-box p {
     max-width: 250px;
-    min-height: 380px;
+    min-height: 420px;
     line-height: 32px;
     padding-top: 30px;
     font-size: 18px;
@@ -230,6 +230,9 @@ header.template_header h1 span {
     padding-top: 50px;
     font-size: 56px;
     color:#233842;
+}
+#templatemo_features .feature-box:hover .feature-box-icon {
+    color: #fff;
 }
 /***** Element *****/
 #templatemo_element .container {
