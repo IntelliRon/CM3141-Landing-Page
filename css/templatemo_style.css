@@ -43,6 +43,7 @@ html {
 body {
     background: #455a64;
     overflow: auto;
+    overflow-x: hidden;
     height: 100vh;
 }
 /***** Typography *****/
