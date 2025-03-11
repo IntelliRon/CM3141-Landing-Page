@@ -67,14 +67,14 @@ jQuery(document).ready(function(){
     // Javascropt parallax effect config for different browser.
     // Chrome broswer setting
     if($.templatemo_is_chrome){
-        $("html").attr("style","overflow:auto;");
-        $("body").attr("style","overflow:auto;height:auto;");
+        $("html").attr("style","overflow-y:auto;overflow-x:hidden;");
+        $("body").attr("style","overflow-y:auto;overflow-x:hidden;height:auto;");
         $('#templatemo_home').parallax("50%", 0.1);
         $('#templatemo_download').parallax("50%", 0.1);
     // Non IE broswer setting
     }else if(!$.templatemo_is_ie){
-        $("html").attr("style","overflow: auto;");
-        $("body").attr("style","background: #455a64;overflow: auto;height: auto;");
+        $("html").attr("style","overflow-y: auto;overflow-x:hidden;");
+        $("body").attr("style","background: #455a64;overflow-y: auto;overflow-x:hidden;height: auto;");
         $('#templatemo_home').parallax("50%", 0.1);
         $('#templatemo_download').parallax("50%", 0.1);
     // IE broswer setting
